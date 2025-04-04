@@ -1,0 +1,118 @@
+/* style.css */
+body {
+  font-family: 'Noto Serif', 'Segoe UI', serif;
+  background-color: #fdf8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+header .logo {
+  margin-bottom: 15px;
+}
+
+header .logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 10px 0;
+  color: #444;
+}
+
+header p {
+  font-size: 18px;
+  color: #666;
+  margin: 5px 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+main p {
+  margin-bottom: 1.8em;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+  hyphens: auto;
+}
+
+main p:first-of-type {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 26px;
+  margin: 1.8em 0 0.8em;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+figure {
+  max-width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #888;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  main {
+    padding: 0 15px;
+  }
+  
+  main p {
+    font-size: 16px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+  }
+}
